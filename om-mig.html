@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Freya Photos är en hemsida där man kan boka en fotograf för sin speciella dag. Author: Freya Lejonkrans, Category: Photo"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Icon for tab -->
+    <link rel="icon" href="img/logos/Freya-Photos-logos_black-icon.png" />
+    <link
+      rel="apple-touch-icon"
+      href="img/logos/Freya-Photos-logos_black-icon-Iphone.png"
+    />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <!-- Links to google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Links too CSS files -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/mediaq.css" />
+
+    <!-- Script for content icons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- Title of the page -->
+    <title>Freya Photos | Fånga ögonblicket</title>
+  </head>
+  <body>
+    <!--navigationen för hemsidan -->
+    <header class="header">
+      <a href="index.html">
+        <img
+          class="logo"
+          alt="Freya Photos"
+          src="img//logos/Freya-Photos-logos_black.png"
+        />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="index.html">Hem</a></li>
+          <li><a class="main-nav-link" href="portfolio.html">Portfolio</a></li>
+          <li><a class="main-nav-link" href="paket.html">Paket</a></li>
+          <li><a class="main-nav-link" href="om-mig.html">Om mig</a></li>
+          <li><a class="main-nav-link" href="hitta-hit.html">Hitta hit</a></li>
+          <li><a class="main-nav-link nav-cta" href="boka.html">Boka</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Main page -->
+    <main class="about-me-main">
+      <div class="container">
+        <h2 class="heading-secondary about-me-header">Om Mig</h2>
+        <div class="">
+          <div class="section-about-me grid grid-2-cols grid-about-me">
+            <!-- PICTURE about me -->
+            <picture>
+              <source srcset="img/camera-15807_500-o.webp" type="image/webp" />
+              <source srcset="img/camera-15807_500-o.png" type="image/png" />
+              <img
+                class="about-me-img"
+                src="img/camera-15807_500-o.png"
+                alt="Freya Lejonkrans fottar med en systemkamera"
+              />
+            </picture>
+            <!-- TEXT About me -->
+            <article class="about-me-text">
+              <h3 class="heading-third">Freya Lejonkrans</h3>
+              <p>
+                Jag är en person som älskar nya utmaningar och ser mig själv som
+                en problemlösare. I mitt arbete är jag självständig och
+                serviceorienterad samtidigt som jag trivs med att arbeta i
+                grupp. Dessutom lägger jag stor vikt vid att arbetet slutförs
+                genom noggrannhet och precision. Jag har ett stort engagemang
+                för att lära mig nya kunskaper, såväl yrkesmässigt som privat.
+                Mitt intresse för att anamma nya kunskaper genererar också i ett
+                stort intresse av att föra vidare dessa, för det är också där
+                jag får visa min kompetens och passion i det arbete som jag
+                utför.
+              </p>
+            </article>
+
+            <!-- EDUCATION box -->
+            <div class="education-box">
+              <h3 class="eduacation-header heading-third">Utbildning</h3>
+              <ul class="education-list">
+                <li class="education-item">Master deegre i photo</li>
+                <li class="education-item">Tyresö gymnaium</li>
+                <li class="education-item">Webbdesign på NTI-skolan</li>
+                <li class="education-item">Cirkusskolan i göteborg</li>
+              </ul>
+            </div>
+            <!-- EDUCATION photo -->
+            <picture>
+              <source srcset="img/photo-431119_500.webp" type="image/webp" />
+              <source srcset="img/photo-431119_500.jpg" type="image/png" />
+              <img
+                class="education-img"
+                src="img/photo-431119_500.jpg"
+                alt="Systemkamera Nicon 58xe"
+              />
+            </picture>
+          </div>
+          <div class="section-education"></div>
+        </div>
+      </div>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container grid grid-footer">
+        <!-- Logo and socials icon column -->
+        <div class="logo-col">
+          <a href="#">
+            <img
+              class="footer-logo"
+              alt="Freya Photo logo"
+              src="img/logos/Freya-Photos-logos_black.png"
+            />
+          </a>
+          <!-- Logo and socials icon column -->
+          <ul class="social-links">
+            <li>
+              <a href="#" class="footer-link"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="footer-link"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="footer-link"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+          <p class="copyright">&copy; 2022 Freya Lejonkrans</p>
+        </div>
+
+        <!-- Adress and contact column -->
+        <div class="address-col">
+          <p class="footer-heading">Kontakt</p>
+          <address class="contacts">
+            <p class="address">Målarprinsens väg 103, 13563 Tyresö</p>
+            <p>
+              <a class="footer-link" href="tel:415-201-6370">+4670 123 45 67 </a
+              ><br />
+              <a class="footer-link" href="mailto:info@freyaphoto.com"
+                >info@freyaphoto.com</a
+              >
+            </p>
+          </address>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

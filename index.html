@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Freya Photos är en hemsida där man kan boka en fotograf för sin speciella dag. Author: Freya Lejonkrans, Category: Photo" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Icon for tab -->
+    <link rel="icon" href="img/logos/Freya-Photos-logos_black-icon.png"/>
+    <link rel="apple-touch-icon" href="img/logos/Freya-Photos-logos_black-icon-Iphone.png"/>
+    <link rel="manifest" href="manifest.webmanifest"/>
+    <!-- Links to google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Links too CSS files -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/mediaq.css" />
+
+    <!-- Script for content icons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- Title of the page -->
+    <title>Freya Photos | Fånga ögonblicket </title>
+  </head>
+  <body>
+
+    <!--Navigation -->
+    <header class="header">
+      <a href="index.html">
+        <img
+          class="logo"
+          alt="Freya Photos"
+          src="img//logos/Freya-Photos-logos_black.png"
+        />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="index.html">Hem</a></li>
+          <li><a class="main-nav-link" href="portfolio.html">Portfolio</a></li>
+          <li><a class="main-nav-link" href="paket.html">Paket</a></li>
+          <li><a class="main-nav-link" href="om-mig.html">Om mig</a></li>
+          <li><a class="main-nav-link" href="hitta-hit.html">Hitta hit</a></li>
+          <li><a class="main-nav-link nav-cta" href="boka.html">Boka</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- MAIN PAGE -->
+      <section class="section-main">
+        <div class="main">
+          <div class="main-text-box">
+            <h1 class="heading-primary">
+              Fånga ögonblicket, upplev kärleken för all evighet
+            </h1>
+            <p class="main-description"><>Din</> lokala fotograf sedan 2002.</p>
+            <a href="boka.html" class="btn btn-full margin-right">Boka</a>
+            <a href="#info" class="btn btn-full">Mer info &darr;</a>
+            <div class="customers-happy">
+              <div class="customers-imgs">
+                <img src="img/customers/1.jpg" alt="customer" />
+                <img src="img/customers/2.jpg" alt="customer" />
+                <img src="img/customers/4.jpg" alt="customer" />
+                <img src="img/customers/5.jpg" alt="customer" />
+                <img src="img/customers/6.jpg" alt="customer" />
+                <img src="img/customers/7.jpg" alt="customer" />
+              </div>
+              <p class="customers-text"><span>1,000+ </span>Nöjda kunder!</p>
+            </div>
+          </div>
+          <div>
+            <picture>
+              <!-- If compatible browser chooses .webp pic -->
+              <source srcset="img/photograph-2168422_1920-o90.webp" type="image/webp" />
+              <source srcset="img/photograph-2168422_1920-o90.png" type="image/png" />
+              <img
+              src="img/photograph-2168422_1920-o90.png"
+              class="main-img"
+              alt="Freya Lejonkrans med systemkamera"
+              loading="eager"
+            />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION HOW  -->
+      <section class="section-how">
+        <div class="container">
+          <span class="subheading">Hur det fungerar</span>
+          <h2 class="heading-secondary">
+            Er stora dag behöver inte vara komplicerad
+          </h2>
+        </div>
+        <div class="container grid grid-2-cols grid-center-v">
+          <!-- step 01  -->
+          <div class="step-text-box">
+            <p id="info" class="step-number">01.</p>
+            <h3 class="heading-third">Hitta ett paket som passer er:</h3>
+            <p class="step-description">
+              Det finns ett paket som passar alla! men skulle det inte göra det
+              är ni såklart välkomna att kontakta mig för att skräddarsy ett
+              paket som passar just er.
+            </p>
+          </div>
+          <div >
+            <!-- If compatible browser chooses .webp pic -->
+            <picture class="step-img-box">
+              <source srcset="img/steg/paket.webp" type="image/webp" />
+              <source srcset="img/steg/paket.png" type="image/png" />
+              <img
+              src="img/steg/paket.png"
+              class="step-img"
+              alt="bild på guld silver och guldpaketet"
+              loading="lazy"
+            />
+            </picture>
+            
+          </div>
+
+
+          <!-- Step 02 -->
+
+          <div >
+            <!-- If compatible browser chooses .webp pic -->
+            <picture class="step-img-box">
+              <source srcset="img/steg/contact.webp" type="image/webp" />
+              <source srcset="img/steg/contact.png" type="image/png" />
+              <img
+              src="img/steg/contact.png"
+              class="step-img"
+              alt="bild på kontakt-formuläret"
+              loading="lazy"
+            />
+            </picture>
+            
+          </div>
+          <div class="step-text-box">
+            <p class="step-number">02.</p>
+            <h3 class="heading-third">Boka med formuläret:</h3>
+            <p class="step-description">
+              När ni väl vet vilket paket ni vill ha eller har en fråga kring
+              vad som helt är det bara att fylla i kontakt-formuläret så
+              återkommer jag till er.
+            </p>
+            <a href="boka.html" class="btn btn-full step-btn">Boka</a>
+          </div>
+
+          <!-- Step 03 -->
+          <div class="step-text-box">
+            <p class="step-number">03.</p>
+            <h3 class="heading-third">Få en bekräftelse:</h3>
+            <p class="step-description">
+              När du får en mail-bekräftelse på din bokning kommer det finnas
+              anvisningar i mailet om hur du ska gå tillväga med betalningen.
+              När du har betalat så är din dag säkrad!
+            </p>
+          </div>
+          <div >
+            <!-- If compatible browser chooses .webp pic -->
+            <picture class="step-img-box">
+              <source srcset="img/steg/comfirmation.webp" type="image/webp" />
+              <source srcset="img/steg/comfirmation.png" type="image/png" />
+              <img
+              src="img/steg/comfirmation.png"
+              class="step-img"
+              alt="en bild på en mail-bekräftelse"
+              loading="lazy"
+            />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <!-- PACKAGE SECTION -->
+
+      <section class="section-package">
+        <div class="container center-text">
+          <span class="subheading">Paket</span>
+          <h2 class="heading-secondary">Paket som passar alla</h2>
+        </div>
+        <div class="container grid grid-4-cols margin-bottom">
+          <div class="package">
+            <img
+              src="img/paket/bronze.png"
+              class="main-package-img"
+              alt="brons"
+              loading="lazy"
+            />
+            <div class="package-content">
+              <p class="package-title">Brons</p>
+              <ul class="package-attributes">
+                <li class="package-attribute">
+                  <ion-icon 
+                    class="package-icon"
+                    name="hourglass-outline"
+                  ></ion-icon
+                  ><span><strong>2</strong> Timmar</span>
+                </li>
+                <li class="package-attribute">
+                  <ion-icon
+                    class="package-icon"
+                    name="images-outline"
+                  ></ion-icon
+                  ><span><strong>10 </strong>Bilder</span>
+                </li>
+                <li class="package-attribute">
+                  <ion-icon class="package-icon" name="card-outline"></ion-icon
+                  ><span><strong>3000 </strong>Kr</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="package">
+            <img
+              src="img/paket/silver.png"
+              class="main-package-img"
+              alt="silver"
+              loading="lazy"
+            />
+            <div class="package-content">
+              <p class="package-title">Silver</p>
+              <ul class="package-attributes">
+                <li class="package-attribute">
+                  <ion-icon
+                    class="package-icon"
+                    name="hourglass-outline"
+                  ></ion-icon
+                  ><span><strong>3</strong> Timmar</span>
+                </li>
+                <li class="package-attribute">
+                  <ion-icon
+                    class="package-icon"
+                    name="images-outline"
+                  ></ion-icon
+                  ><span><strong>20</strong> Bilder</span>
+                </li>
+                <li class="package-attribute">
+                  <ion-icon class="package-icon" name="card-outline"></ion-icon
+                  ><span><strong>5000</strong> Kr</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="package">
+            <img src="img/paket/gold.png" class="main-package-img" alt="guld" loading="lazy" />
+            <div class="package-content">
+              <p class="package-title">Guld</p>
+              <ul class="package-attributes">
+                <li class="package-attribute">
+                  <ion-icon
+                    class="package-icon"
+                    name="hourglass-outline"
+                  ></ion-icon
+                  ><span><strong>6</strong> Timmar</span>
+                </li>
+                <li class="package-attribute">
+                  <ion-icon
+                    class="package-icon"
+                    name="images-outline"
+                  ></ion-icon
+                  ><span><strong>100</strong> Bilder</span>
+                </li>
+                <li class="package-attribute">
+                  <ion-icon class="package-icon" name="card-outline"></ion-icon
+                  ><span><strong>8000</strong> Kr</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="package">
+            <figure>
+              <img
+              src="img/paket/diamond.jpg"
+              class="main-package-img"
+              alt="diamant"
+              loading="lazy"
+              />
+              <figcaption class="package-gallery-caption" >
+                <a 
+                href=https://www.flickr.com/photos/nikil/3098729980/
+                >Diamond av nikilok CC BY</a>
+              </figcaption>
+            </figure>
+            <div class="package-content">
+              <p class="package-title">Diamant</p>
+              <ul class="package-attributes">
+                <li class="package-attribute">
+                  <ion-icon
+                    class="package-icon"
+                    name="hourglass-outline"
+                  ></ion-icon
+                  ><span><strong>24</strong> Timmar</span>
+                </li>
+                <li class="package-attribute">
+                  <ion-icon
+                    class="package-icon"
+                    name="images-outline"
+                  ></ion-icon
+                  ><span><strong>300</strong> Bilder</span>
+                </li>
+                <li class="package-attribute">
+                  <ion-icon class="package-icon" name="card-outline"></ion-icon
+                  ><span><strong>20000</strong> Kr</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="container all-packages">
+          <a href="paket.html" class="link">Se mer info om paketen &rarr;</a>
+        </div>
+      </section>
+
+      <!-- TESTIMONIAL SECTION -->
+      <section class="section-testimonials">
+        <div class="testimonials-container">
+          <span class="subheading">Referenser</span>
+          <h2 class="heading-secondary">Några ord från mina kunder</h2>
+
+          <div class="testimonials">
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer Selim Köse"
+                src="img/customers/9.jpg"
+                loading="lazy"
+              />
+              <blockquote class="testimonial-text">
+                Otroligt bra fotograf som både tar fantastiskt fina bilder och
+                som också lättar upp stämningen med sin sköna personlighet! Jag
+                och min fru är jättenöjda med alla hundratals bilder från vårt
+                bröllop. Värd varenda krona.
+              </blockquote>
+              <p class="testimonial-name">&mdash; Selim Köse</p>
+            </figure>
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer Abdul Kadir"
+                src="img/customers/1.jpg"
+                loading="lazy"
+              />
+              <blockquote class="testimonial-text">
+                Freya är fantastisk med barn. Hon fick mina odågor att sitta
+                stilla och le på samtliga foton. Jag fick perfekta bilder att
+                skicka till släkten! Kommer att kontaka Freya i framtiden
+              </blockquote>
+              <p class="testimonial-name">&mdash; Abdul Kadir</p>
+            </figure>
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer Chung Lee"
+                src="img/customers/7.jpg"
+                loading="lazy"
+              />
+              <blockquote class="testimonial-text">
+                Vi är så nöjda att vi valde Freya som fotograf till vårt
+                bröllop. Hon lyckades fånga vår speciella dag på bästa tänkbara
+                sätt. Tveka inte att kontakta Freya!
+              </blockquote>
+              <p class="testimonial-name">&mdash; Chung Lee</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer Hanna Svensson"
+                src="img/customers/8.jpg"
+                loading="lazy"
+              />
+              <blockquote class="testimonial-text">
+                Vi är supernöjda med att vi valde Freya som fotograf till vårt
+                bröllop! Under fotograferingen hjälpte hon oss verkligen att
+                slappna av och känna oss bekväma. Bilderna blev fantastiskt bra!
+              </blockquote>
+              <p class="testimonial-name">&mdash; Hanna Svensson</p>
+            </figure>
+          </div>
+        </div>
+
+        <!-- Main page gallery -->
+        <div class="main-gallery">
+          <figure class="gallery-item">
+            <picture>
+              <source srcset="img/Freya-photos/frontpage/13girl-1327774_1920.webp" type="image/webp" />
+              <source srcset="img/Freya-photos/frontpage/13girl-1327774_1920.jpg" type="image/png" />
+              <img
+              src="img/Freya-photos/frontpage/13girl-1327774_1920.jpg"
+              alt="Bild på en kund"
+              loading="lazy"
+            />
+            </picture>
+            </figure>
+
+          <figure class="gallery-item">
+            <picture>
+              <source srcset="img/Freya-photos/frontpage/14girl-2191057_1920.webp" type="image/webp" />
+              <source srcset="img/Freya-photos/frontpage/14girl-2191057_1920.jpg" type="image/png" />
+              <img
+              src="img/Freya-photos/frontpage/14girl-2191057_1920.jpg"
+              alt="Bild på en kund"
+              loading="lazy"
+            />
+            </picture>
+          </figure>
+
+          <figure class="gallery-item">
+            <picture>
+              <source srcset="img/Freya-photos/frontpage/15girl-2386999_1920.webp" type="image/webp" />
+              <source srcset="img/Freya-photos/frontpage/15girl-2386999_1920.jpg" type="image/png" />
+              <img
+              src="img/Freya-photos/frontpage/15girl-2386999_1920.jpg"
+              alt="Bild på en kund"
+              loading="lazy"
+            />
+            </picture>
+            
+  
+          </figure>
+          <figure class="gallery-item">
+            <picture>
+              <source srcset="img/Freya-photos/frontpage/16maternity-2252154_1920.webp" type="image/webp" />
+              <source srcset="img/Freya-photos/frontpage/16maternity-2252154_1920.jpg" type="image/png" />
+              <img
+              src="img/Freya-photos/frontpage/16maternity-2252154_1920.jpg"
+              alt="Bild på en kund"
+              loading="lazy"
+            />
+            </picture>
+            
+            
+          </figure>
+          <figure class="gallery-item">
+            <picture>
+              <source srcset="img/Freya-photos/frontpage/17meet-696077_1920.webp" type="image/webp" />
+              <source srcset="img/Freya-photos/frontpage/17meet-696077_1920.jpg" type="image/png" />
+              <img
+              src="img/Freya-photos/frontpage/17meet-696077_1920.jpg"
+              alt="Bild på en kund"
+              loading="lazy"
+            />
+            </picture>
+            
+            
+          </figure>
+          <figure class="gallery-item">
+            <picture>
+              <source srcset="img/Freya-photos/frontpage/18modelling-1560591_1920.webp" type="image/webp" />
+              <source srcset="img/Freya-photos/frontpage/18modelling-1560591_1920.jpg" type="image/png" />
+              <img
+              src="img/Freya-photos/frontpage/18modelling-1560591_1920.jpg"
+              loading="lazy"
+              alt="Bild på en kund"
+            />
+            </picture>
+           
+            
+          </figure>
+          <figure class="gallery-item">
+            <picture>
+              <source srcset="img/Freya-photos/frontpage/18modelling-1560591_1920.webp" type="image/webp" />
+              <source srcset="img/Freya-photos/frontpage/18modelling-1560591_1920.jpg" type="image/png" />
+              <img
+              src="img/Freya-photos/frontpage/18modelling-1560591_1920.jpg"
+              alt="Bild på en kund"
+              loading="lazy"
+            />
+            </picture>
+            
+           
+          </figure>
+          <figure class="gallery-item">
+            <picture>
+              <source srcset="img/Freya-photos/frontpage/20photographer-1262797_1920.webp" type="image/webp" />
+              <source srcset="img/Freya-photos/frontpage/20photographer-1262797_1920.jpg" type="image/png" />
+              <img
+              src="img/Freya-photos/frontpage/20photographer-1262797_1920.jpg"
+              alt="Bild på en kund"
+              loading="lazy"
+            />
+            </picture>
+            
+          
+          </figure>
+          <figure class="gallery-item">
+            <picture>
+              <source srcset="img/Freya-photos/frontpage/21pregnancy-806989_1920.webp" type="image/webp" />
+              <source srcset="img/Freya-photos/frontpage/21pregnancy-806989_1920.jpg" type="image/png" />
+              <img
+              src="img/Freya-photos/frontpage/21pregnancy-806989_1920.jpg"
+              alt="Bild på en kund"
+              loading="lazy"
+            />
+            </picture>
+           
+            
+          </figure>
+          <figure class="gallery-item">
+            <picture>
+              <source srcset="img/Freya-photos/frontpage/22smile-2072908_1920.webp" type="image/webp" />
+              <source srcset="img/Freya-photos/frontpage/22smile-2072908_1920.jpg" type="image/png" />
+              <img
+              src="img/Freya-photos/frontpage/22smile-2072908_1920.jpg"
+              alt="Bild på en kund"
+              loading="lazy"
+            />
+            </picture>
+            
+            
+          </figure>
+          <figure class="gallery-item">
+            <picture>
+              <source srcset="img/Freya-photos/frontpage/23squatting-19112_1920.webp" type="image/webp" />
+              <source srcset="img/Freya-photos/frontpage/23squatting-19112_1920.jpg" type="image/png" />
+              <img
+              src="img/Freya-photos/frontpage/23squatting-19112_1920.jpg"
+              alt="Bild på en kund"
+              loading="lazy"
+            />
+            </picture>
+            
+            
+          </figure>
+          <figure class="gallery-item">
+            <picture>
+              <source srcset="img/Freya-photos/frontpage/24winter-1127201_1920.webp" type="image/webp" />
+              <source srcset="img/Freya-photos/frontpage/24winter-1127201_1920.jpg" type="image/png" />
+              <img
+              src="img/Freya-photos/frontpage/24winter-1127201_1920.jpg"
+              alt="Bild på en kund"
+              loading="lazy"
+            />
+            </picture>
+          </figure>
+        </div>
+      </section>
+    </main>
+            
+            <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container grid grid-footer">
+        
+        <!-- Logo and socials icon column -->
+        <div class="logo-col">
+          <a href="#">
+            <img
+              class="footer-logo"
+              alt="Freya Photo logo"
+              src="img/logos/Freya-Photos-logos_black.png"
+            />
+          </a>
+        <!-- Logo and socials icon column -->
+          <ul class="social-links">
+            <li>
+              <a href="#" class="footer-link"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="footer-link"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="footer-link"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+          <p class="copyright">&copy; 2022 Freya Lejonkrans</p>
+        </div>
+        
+        <!-- Adress and contact column -->
+        <div class="address-col">
+          <p class="footer-heading">Kontakt</p>
+          <address class="contacts">
+            <p class="address">Målarprinsens väg 103, 13563 Tyresö</p>
+            <p>
+              <a class="footer-link" href="tel:415-201-6370">+4670 123 45 67 </a
+              ><br />
+              <a class="footer-link" href="mailto:info@freyaphoto.com"
+                >info@freyaphoto.com</a
+              >
+            </p>
+          </address>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

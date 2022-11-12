@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Freya Photos är en hemsida där man kan boka en fotograf för sin speciella dag. Author: Freya Lejonkrans, Category: Photo"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Icon for tab -->
+    <link rel="icon" href="img/logos/Freya-Photos-logos_black-icon.png" />
+    <link
+      rel="apple-touch-icon"
+      href="img/logos/Freya-Photos-logos_black-icon-Iphone.png"
+    />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <!-- Links to google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Links too CSS files -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/mediaq.css" />
+
+    <!-- Script for content icons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- Title of the page -->
+    <title>Freya Photos | Fånga ögonblicket</title>
+  </head>
+  <body>
+    <!--navigationen för hemsidan -->
+    <header class="header">
+      <a href="index.html">
+        <img
+          class="logo"
+          alt="Freya Photos"
+          src="img/logos/Freya-Photos-logos_black.png"
+        />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="index.html">Hem</a></li>
+          <li><a class="main-nav-link" href="portfolio.html">Portfolio</a></li>
+          <li><a class="main-nav-link" href="paket.html">Paket</a></li>
+          <li><a class="main-nav-link" href="om-mig.html">Om mig</a></li>
+          <li><a class="main-nav-link" href="hitta-hit.html">Hitta hit</a></li>
+          <li><a class="main-nav-link nav-cta" href="boka.html">Boka</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- MAIN PAGE -->
+    <main class="hitta-hit-main">
+      <section class="section-hitta-hit container">
+        <div>
+          <h2 class="heading-secondary hitta-hit-header">Hitta hit</h2>
+          <div class="hitta-hit">
+            <!-- PICTURE on studio -->
+            <article class="hitta-hit-article">
+              <picture>
+                <source
+                  srcset="img/hitta-hit/20220411_151003.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="img/hitta-hit/20220411_151003.jpg"
+                  type="image/png"
+                />
+                <img
+                  class="hitta-hit-img"
+                  src="img/hitta-hit/20220411_151003.jpg"
+                  alt="Freya studios lokaler i tyresö"
+                />
+              </picture>
+              <!-- STUDIO Info -->
+              <h3 class="heading-fourth">Studio</h3>
+              <p class="hitta-hit-text">
+                Vår snygga studio finns i södra Stockholm, Tyresö strand.
+                Välkomna hit!
+              </p>
+            </article>
+            <article>
+              <h3 class="heading-fourth">Besöksadress</h3>
+              <p class="hitta-hit-text">Målarprinsens väg 103, 13563 Tyresö</p>
+            </article>
+            <article>
+              <h3 class="heading-fourth">Kontakt</h3>
+              <a class="hitta-hit-link" href="tel:415-201-6370"
+                >+4670 123 45 67 <br />
+              </a>
+
+              <a class="hitta-hit-link" href="mailto:info@freyaphoto.com"
+                >info@freyaphoto.com</a
+              >
+            </article>
+            <article>
+              <h3 class="heading-fourth">Kommunikationer</h3>
+              <p class="hitta-hit-text"><strong>Buss</strong> 875, 804</p>
+            </article>
+            <article>
+              <h3 class="heading-fourth">Parkering</h3>
+              <p class="hitta-hit-text">
+                Parkeringsmöjligheter för <strong>bilar</strong> finns utanför
+                studion.
+              </p>
+            </article>
+            <!-- IFRAME studio laction google maps -->
+            <iframe
+              class="iframe"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3445.613296503595!2d18.277602716471677!3d59.24491822482928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f7eff0439c073%3A0x2dc2e815b7925208!2zTcOlbGFycHJpbnNlbnMgdsOkZyAxMDMsIDEzNSA2MyBUeXJlc8O2!5e1!3m2!1ssv!2sse!4v1649682194918!5m2!1ssv!2sse"
+              width="600"
+              height="450"
+              style="border: 5px solid #846b42"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container grid grid-footer">
+        <!-- Logo and socials icon column -->
+        <div class="logo-col">
+          <a href="#">
+            <img
+              class="footer-logo"
+              alt="Freya Photo logo"
+              src="img/logos/Freya-Photos-logos_black.png"
+            />
+          </a>
+          <!-- Logo and socials icon column -->
+          <ul class="social-links">
+            <li>
+              <a href="#" class="footer-link"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="footer-link"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="footer-link"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+          <p class="copyright">&copy; 2022 Freya Lejonkrans</p>
+        </div>
+
+        <!-- Adress and contact column -->
+        <div class="address-col">
+          <p class="footer-heading">Kontakt</p>
+          <address class="contacts">
+            <p class="address">Målarprinsens väg 103, 13563 Tyresö</p>
+            <p>
+              <a class="footer-link" href="tel:415-201-6370">+4670 123 45 67 </a
+              ><br />
+              <a class="footer-link" href="mailto:info@freyaphoto.com"
+                >info@freyaphoto.com</a
+              >
+            </p>
+          </address>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
